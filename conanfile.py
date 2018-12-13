@@ -2,7 +2,7 @@ from conans import ConanFile, CMake, tools
 
 class AsioConan(ConanFile):
     name = "asio"
-    version = "1.12.1"
+    version = "1.12.2"
     license = "BSL-1.0"
     url = "https://github.com/sorf/conan-asio"
     description = "Asio C++ Library"
