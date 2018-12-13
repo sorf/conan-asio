@@ -9,7 +9,7 @@ class AsioConan(ConanFile):
     no_copy_source = True
 
     def source(self):
-        self.run("git clone --depth 1 --branch asio-1-12-1 https://github.com/chriskohlhoff/asio")
+        self.run("git clone --depth 1 --branch asio-1-12-2 https://github.com/chriskohlhoff/asio")
 
     def package(self):
         self.copy("*.hpp", dst="include", src="asio/asio/include/")
